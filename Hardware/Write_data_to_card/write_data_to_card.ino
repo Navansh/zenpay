@@ -3,7 +3,7 @@
 #include <NfcAdapter.h>
 
 #define RST_PIN 9     // Reset pin
-#define SS_PIN 10     // Slave select pin
+#define SS_PIN 10     // Slave select pin 
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);  // Create MFRC522 instance
 NfcAdapter nfc = NfcAdapter(&mfrc522);  // Create NfcAdapter instance
